@@ -1,0 +1,151 @@
+stack size              (kbytes, -s) unlimited
+
+
+
+
+
+
+/uufs/chpc.utah.edu/common/home/u1136450/.conda/envs/ytopt/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: DeprecationWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=DeprecationWarning)
+Using TensorFlow backend.
+worker with rank 1 on kp335.
+{'evalnum': 0, 'startTime': 1562965329, 'endTime': 1562965336, 'cost': 5.848968, 'x': ['a', 'a', 'c'], 'key': '000_00000.dat', 'status': 0, 'elapsed_time': 6.858332872390747}
+{'evalnum': 1, 'startTime': 1562965336, 'endTime': 1562965348, 'cost': 11.619259, 'x': ['a', 'c', 'b'], 'key': '000_00001.dat', 'status': 0, 'elapsed_time': 19.25130319595337}
+{'evalnum': 2, 'startTime': 1562965348, 'endTime': 1562965350, 'cost': 1.532696, 'x': ['a', 'a', 'g'], 'key': '000_00002.dat', 'status': 0, 'elapsed_time': 21.403030395507812}
+{'evalnum': 3, 'startTime': 1562965350, 'endTime': 1562965374, 'cost': 22.783528, 'x': ['a', 'c', 'a'], 'key': '000_00003.dat', 'status': 0, 'elapsed_time': 44.769625663757324}
+{'evalnum': 4, 'startTime': 1562965374, 'endTime': 1562965386, 'cost': 11.274338, 'x': ['b', 'a', 'b'], 'key': '000_00004.dat', 'status': 0, 'elapsed_time': 56.73711562156677}
+{'evalnum': 5, 'startTime': 1562965386, 'endTime': 1562965390, 'cost': 3.292057, 'x': ['a', 'c', 'd'], 'key': '000_00005.dat', 'status': 0, 'elapsed_time': 60.58415079116821}
+Exit rank=1
+space:  [['a', 'b'], ['a', 'b', 'c'], ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']]
+Master starting with 1 workers
+elapsed_time:0.004
+sample ['a', 'a', 'c']
+Sending task 0 to worker 1
+elapsed_time:6.859
+Got data from worker 1
+curr_best=5.848968 percent_improv=nan patience=0/30.0
+elapsed_time:6.859
+sample ['a', 'c', 'b']
+Sending task 1 to worker 1
+elapsed_time:19.251
+Got data from worker 1
+curr_best=5.848968 percent_improv=-96.99650426763095 patience=1/30.0
+elapsed_time:19.252
+sample ['a', 'a', 'g']
+Sending task 2 to worker 1
+elapsed_time:21.403
+Got data from worker 1
+curr_best=1.532696 percent_improv=72.5549708789827 patience=0/30.0
+elapsed_time:21.403
+sample ['a', 'c', 'a']
+Sending task 3 to worker 1
+elapsed_time:44.770
+Got data from worker 1
+curr_best=1.532696 percent_improv=-1301.5792284662912 patience=1/30.0
+elapsed_time:44.770
+sample ['b', 'a', 'b']
+Sending task 4 to worker 1
+elapsed_time:56.737
+Got data from worker 1
+curr_best=1.532696 percent_improv=-596.6598803451468 patience=2/30.0
+elapsed_time:56.737
+sample ['a', 'c', 'd']
+Sending task 5 to worker 1
+elapsed_time:60.584
+Got data from worker 1
+curr_best=1.532696 percent_improv=-107.75802721388425 patience=3/30.0
+elapsed_time:60.584
+elapsed_time:60.585
+Worker 1 exited.
+Search finished..
+[{'evalnum': 0, 'startTime': 1562965329, 'endTime': 1562965336, 'cost': 5.848968, 'x': ['a', 'a', 'c'], 'key': '000_00000.dat', 'status': 0, 'elapsed_time': 6.858332872390747}, {'evalnum': 1, 'startTime': 1562965336, 'endTime': 1562965348, 'cost': 11.619259, 'x': ['a', 'c', 'b'], 'key': '000_00001.dat', 'status': 0, 'elapsed_time': 19.25130319595337}, {'evalnum': 2, 'startTime': 1562965348, 'endTime': 1562965350, 'cost': 1.532696, 'x': ['a', 'a', 'g'], 'key': '000_00002.dat', 'status': 0, 'elapsed_time': 21.403030395507812}, {'evalnum': 3, 'startTime': 1562965350, 'endTime': 1562965374, 'cost': 22.783528, 'x': ['a', 'c', 'a'], 'key': '000_00003.dat', 'status': 0, 'elapsed_time': 44.769625663757324}, {'evalnum': 4, 'startTime': 1562965374, 'endTime': 1562965386, 'cost': 11.274338, 'x': ['b', 'a', 'b'], 'key': '000_00004.dat', 'status': 0, 'elapsed_time': 56.73711562156677}, {'evalnum': 5, 'startTime': 1562965386, 'endTime': 1562965390, 'cost': 3.292057, 'x': ['a', 'c', 'd'], 'key': '000_00005.dat', 'status': 0, 'elapsed_time': 60.58415079116821}]
+[
+    {
+        "cost": 5.848968,
+        "elapsed_time": 6.858332872390747,
+        "endTime": 1562965336,
+        "evalnum": 0,
+        "key": "000_00000.dat",
+        "startTime": 1562965329,
+        "status": 0,
+        "x": [
+            "a",
+            "a",
+            "c"
+        ]
+    },
+    {
+        "cost": 11.619259,
+        "elapsed_time": 19.25130319595337,
+        "endTime": 1562965348,
+        "evalnum": 1,
+        "key": "000_00001.dat",
+        "startTime": 1562965336,
+        "status": 0,
+        "x": [
+            "a",
+            "c",
+            "b"
+        ]
+    },
+    {
+        "cost": 1.532696,
+        "elapsed_time": 21.403030395507812,
+        "endTime": 1562965350,
+        "evalnum": 2,
+        "key": "000_00002.dat",
+        "startTime": 1562965348,
+        "status": 0,
+        "x": [
+            "a",
+            "a",
+            "g"
+        ]
+    },
+    {
+        "cost": 22.783528,
+        "elapsed_time": 44.769625663757324,
+        "endTime": 1562965374,
+        "evalnum": 3,
+        "key": "000_00003.dat",
+        "startTime": 1562965350,
+        "status": 0,
+        "x": [
+            "a",
+            "c",
+            "a"
+        ]
+    },
+    {
+        "cost": 11.274338,
+        "elapsed_time": 56.73711562156677,
+        "endTime": 1562965386,
+        "evalnum": 4,
+        "key": "000_00004.dat",
+        "startTime": 1562965374,
+        "status": 0,
+        "x": [
+            "b",
+            "a",
+            "b"
+        ]
+    },
+    {
+        "cost": 3.292057,
+        "elapsed_time": 60.58415079116821,
+        "endTime": 1562965390,
+        "evalnum": 5,
+        "key": "000_00005.dat",
+        "startTime": 1562965386,
+        "status": 0,
+        "x": [
+            "a",
+            "c",
+            "d"
+        ]
+    }
+]
+Best: x = 1.532696; y=['a', 'a', 'g']
+/uufs/chpc.utah.edu/common/home/u1136450/.conda/envs/ytopt/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: DeprecationWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=DeprecationWarning)
+Using TensorFlow backend.

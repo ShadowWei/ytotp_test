@@ -1,0 +1,107 @@
+stack size              (kbytes, -s) unlimited
+
+
+
+
+/uufs/chpc.utah.edu/common/home/u1136450/.conda/envs/ytopt/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: DeprecationWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=DeprecationWarning)
+Using TensorFlow backend.
+worker with rank 1 on kp335.
+{'evalnum': 0, 'startTime': 1563207301, 'endTime': 1563207311, 'cost': 8.948524, 'x': ['a', 'a', 'c'], 'key': '000_00000.dat', 'status': 0, 'elapsed_time': 9.990848302841187}
+{'evalnum': 1, 'startTime': 1563207311, 'endTime': 1563207329, 'cost': 16.757346, 'x': ['a', 'c', 'b'], 'key': '000_00001.dat', 'status': 0, 'elapsed_time': 27.33119249343872}
+{'evalnum': 2, 'startTime': 1563207329, 'endTime': 1563207332, 'cost': 2.569021, 'x': ['a', 'a', 'g'], 'key': '000_00002.dat', 'status': 0, 'elapsed_time': 30.53137731552124}
+{'evalnum': 3, 'startTime': 1563207332, 'endTime': 1563207367, 'cost': 34.71214, 'x': ['a', 'c', 'a'], 'key': '000_00003.dat', 'status': 0, 'elapsed_time': 65.94256925582886}
+Exit rank=1
+/uufs/chpc.utah.edu/common/home/u1136450/.conda/envs/ytopt/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: DeprecationWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=DeprecationWarning)
+Using TensorFlow backend.
+space:  [['a', 'b'], ['a', 'b', 'c'], ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']]
+Master starting with 1 workers kp334
+elapsed_time:0.004
+sample ['a', 'a', 'c']
+Sending task 0 to worker 1
+elapsed_time:9.991
+Got data from worker 1
+curr_best=8.948524 percent_improv=nan patience=0/30.0
+elapsed_time:9.992
+sample ['a', 'c', 'b']
+Sending task 1 to worker 1
+elapsed_time:27.331
+Got data from worker 1
+curr_best=8.948524 percent_improv=-86.29940087466197 patience=1/30.0
+elapsed_time:27.332
+sample ['a', 'a', 'g']
+Sending task 2 to worker 1
+elapsed_time:30.532
+Got data from worker 1
+curr_best=2.569021 percent_improv=70.50324450705993 patience=0/30.0
+elapsed_time:30.532
+sample ['a', 'c', 'a']
+Sending task 3 to worker 1
+elapsed_time:65.943
+Got data from worker 1
+curr_best=2.569021 percent_improv=-1204.303712859509 patience=1/30.0
+elapsed_time:65.943
+elapsed_time:65.943
+Worker 1 exited.
+Search finished..
+[{'evalnum': 0, 'startTime': 1563207301, 'endTime': 1563207311, 'cost': 8.948524, 'x': ['a', 'a', 'c'], 'key': '000_00000.dat', 'status': 0, 'elapsed_time': 9.990848302841187}, {'evalnum': 1, 'startTime': 1563207311, 'endTime': 1563207329, 'cost': 16.757346, 'x': ['a', 'c', 'b'], 'key': '000_00001.dat', 'status': 0, 'elapsed_time': 27.33119249343872}, {'evalnum': 2, 'startTime': 1563207329, 'endTime': 1563207332, 'cost': 2.569021, 'x': ['a', 'a', 'g'], 'key': '000_00002.dat', 'status': 0, 'elapsed_time': 30.53137731552124}, {'evalnum': 3, 'startTime': 1563207332, 'endTime': 1563207367, 'cost': 34.71214, 'x': ['a', 'c', 'a'], 'key': '000_00003.dat', 'status': 0, 'elapsed_time': 65.94256925582886}]
+[
+    {
+        "cost": 8.948524,
+        "elapsed_time": 9.990848302841187,
+        "endTime": 1563207311,
+        "evalnum": 0,
+        "key": "000_00000.dat",
+        "startTime": 1563207301,
+        "status": 0,
+        "x": [
+            "a",
+            "a",
+            "c"
+        ]
+    },
+    {
+        "cost": 16.757346,
+        "elapsed_time": 27.33119249343872,
+        "endTime": 1563207329,
+        "evalnum": 1,
+        "key": "000_00001.dat",
+        "startTime": 1563207311,
+        "status": 0,
+        "x": [
+            "a",
+            "c",
+            "b"
+        ]
+    },
+    {
+        "cost": 2.569021,
+        "elapsed_time": 30.53137731552124,
+        "endTime": 1563207332,
+        "evalnum": 2,
+        "key": "000_00002.dat",
+        "startTime": 1563207329,
+        "status": 0,
+        "x": [
+            "a",
+            "a",
+            "g"
+        ]
+    },
+    {
+        "cost": 34.71214,
+        "elapsed_time": 65.94256925582886,
+        "endTime": 1563207367,
+        "evalnum": 3,
+        "key": "000_00003.dat",
+        "startTime": 1563207332,
+        "status": 0,
+        "x": [
+            "a",
+            "c",
+            "a"
+        ]
+    }
+]
+Best: x = 2.569021; y=['a', 'a', 'g']

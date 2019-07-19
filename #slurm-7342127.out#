@@ -1,0 +1,68 @@
+stack size              (kbytes, -s) unlimited
+
+
+/uufs/chpc.utah.edu/common/home/u1136450/.conda/envs/ytopt/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: DeprecationWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=DeprecationWarning)
+Using TensorFlow backend.
+Created experiments directory at:  /uufs/chpc.utah.edu/common/home/u1136450/ytopt/experiments/exp-5
+Created jobs directory at:  /uufs/chpc.utah.edu/common/home/u1136450/ytopt/experiments/exp-5/jobs
+Created results directory at:  /uufs/chpc.utah.edu/common/home/u1136450/ytopt/experiments/exp-5/results
+worker with rank 1 on kp333.
+{'evalnum': 0, 'startTime': 1563204312, 'endTime': 1563204349, 'cost': 35.583236, 'x': ['a', 'a', 'a'], 'key': '000_00000.dat', 'status': 0, 'elapsed_time': 36.693822622299194}
+{'evalnum': 1, 'startTime': 1563204349, 'endTime': 1563204386, 'cost': 36.149333, 'x': ['a', 'c', 'a'], 'key': '000_00001.dat', 'status': 0, 'elapsed_time': 73.59900403022766}
+Exit rank=1
+/uufs/chpc.utah.edu/common/home/u1136450/.conda/envs/ytopt/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: DeprecationWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=DeprecationWarning)
+Using TensorFlow backend.
+Created jobs directory at:  /uufs/chpc.utah.edu/common/home/u1136450/ytopt/experiments/exp-5/jobs
+Created results directory at:  /uufs/chpc.utah.edu/common/home/u1136450/ytopt/experiments/exp-5/results
+space:  [['a', 'b'], ['a', 'b', 'c'], ['a', 'b', 'c']]
+Master starting with 1 workers
+elapsed_time:0.008
+sample ['a', 'a', 'a']
+Sending task 0 to worker 1
+elapsed_time:36.694
+Got data from worker 1
+curr_best=35.583236 percent_improv=nan patience=0/30.0
+elapsed_time:36.695
+sample ['a', 'c', 'a']
+Sending task 1 to worker 1
+elapsed_time:73.599
+Got data from worker 1
+curr_best=35.583236 percent_improv=-1.5864508476753598 patience=1/30.0
+elapsed_time:73.599
+elapsed_time:73.600
+Worker 1 exited.
+Search finished..
+[{'evalnum': 0, 'startTime': 1563204312, 'endTime': 1563204349, 'cost': 35.583236, 'x': ['a', 'a', 'a'], 'key': '000_00000.dat', 'status': 0, 'elapsed_time': 36.693822622299194}, {'evalnum': 1, 'startTime': 1563204349, 'endTime': 1563204386, 'cost': 36.149333, 'x': ['a', 'c', 'a'], 'key': '000_00001.dat', 'status': 0, 'elapsed_time': 73.59900403022766}]
+[
+    {
+        "cost": 35.583236,
+        "elapsed_time": 36.693822622299194,
+        "endTime": 1563204349,
+        "evalnum": 0,
+        "key": "000_00000.dat",
+        "startTime": 1563204312,
+        "status": 0,
+        "x": [
+            "a",
+            "a",
+            "a"
+        ]
+    },
+    {
+        "cost": 36.149333,
+        "elapsed_time": 73.59900403022766,
+        "endTime": 1563204386,
+        "evalnum": 1,
+        "key": "000_00001.dat",
+        "startTime": 1563204349,
+        "status": 0,
+        "x": [
+            "a",
+            "c",
+            "a"
+        ]
+    }
+]
+Best: x = 35.583236; y=['a', 'a', 'a']

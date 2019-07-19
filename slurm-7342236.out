@@ -1,0 +1,63 @@
+stack size              (kbytes, -s) unlimited
+
+
+/uufs/chpc.utah.edu/common/home/u1136450/.conda/envs/ytopt/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: DeprecationWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=DeprecationWarning)
+Using TensorFlow backend.
+worker with rank 1 on kp333.
+{'evalnum': 0, 'startTime': 1563207874, 'endTime': 1563207896, 'cost': 20.920901, 'x': ['a', 'a', 'c'], 'key': '000_00000.dat', 'status': 0, 'elapsed_time': 22.08232021331787}
+{'evalnum': 1, 'startTime': 1563207896, 'endTime': 1563207936, 'cost': 38.845777, 'x': ['a', 'c', 'b'], 'key': '000_00001.dat', 'status': 0, 'elapsed_time': 61.694557905197144}
+Exit rank=1
+/uufs/chpc.utah.edu/common/home/u1136450/.conda/envs/ytopt/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: DeprecationWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=DeprecationWarning)
+Using TensorFlow backend.
+space:  [['a', 'b'], ['a', 'b', 'c'], ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']]
+Master starting with 1 workers kp327
+elapsed_time:0.003
+sample ['a', 'a', 'c']
+Sending task 0 to worker 1
+elapsed_time:22.083
+Got data from worker 1
+curr_best=20.920901 percent_improv=nan patience=0/30.0
+elapsed_time:22.083
+sample ['a', 'c', 'b']
+Sending task 1 to worker 1
+elapsed_time:61.695
+Got data from worker 1
+curr_best=20.920901 percent_improv=-85.27168269333458 patience=1/30.0
+elapsed_time:61.695
+elapsed_time:61.695
+Worker 1 exited.
+Search finished..
+[{'evalnum': 0, 'startTime': 1563207874, 'endTime': 1563207896, 'cost': 20.920901, 'x': ['a', 'a', 'c'], 'key': '000_00000.dat', 'status': 0, 'elapsed_time': 22.08232021331787}, {'evalnum': 1, 'startTime': 1563207896, 'endTime': 1563207936, 'cost': 38.845777, 'x': ['a', 'c', 'b'], 'key': '000_00001.dat', 'status': 0, 'elapsed_time': 61.694557905197144}]
+[
+    {
+        "cost": 20.920901,
+        "elapsed_time": 22.08232021331787,
+        "endTime": 1563207896,
+        "evalnum": 0,
+        "key": "000_00000.dat",
+        "startTime": 1563207874,
+        "status": 0,
+        "x": [
+            "a",
+            "a",
+            "c"
+        ]
+    },
+    {
+        "cost": 38.845777,
+        "elapsed_time": 61.694557905197144,
+        "endTime": 1563207936,
+        "evalnum": 1,
+        "key": "000_00001.dat",
+        "startTime": 1563207896,
+        "status": 0,
+        "x": [
+            "a",
+            "c",
+            "b"
+        ]
+    }
+]
+Best: x = 20.920901; y=['a', 'a', 'c']

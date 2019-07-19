@@ -1,0 +1,4 @@
+sourcefile = "/uufs/chpc.utah.edu/common/home/u1136450/ytopt/OpenMP_benchmark/atax/atax.c"
+sourcedir = "/uufs/chpc.utah.edu/common/home/u1136450/ytopt/OpenMP_benchmark"
+outputdir = "/uufs/chpc.utah.edu/common/home/u1136450/ytopt/experiments/exp-2"
+compileoptions = ""

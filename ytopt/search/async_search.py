@@ -94,7 +94,8 @@ class AsyncSearch(Search):
                     acq_func_kwargs=parDict,
                     random_state=seed,
                     n_initial_points=self.n_initial_points)
-            print('Master starting with {} workers'.format(num_workers))
+            name2 = MPI.Get_processor_name()
+            print('Master starting with %d workers %s' % (num_workers, name2))
 
             while closed_workers < num_workers:
                 data = comm.recv(source=MPI.ANY_SOURCE, tag=MPI.ANY_TAG, status=status)

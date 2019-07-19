@@ -1,0 +1,722 @@
+stack size              (kbytes, -s) unlimited
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+space:  [['a', 'b'], ['a', 'b', 'c'], ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']]
+Master starting with 1 workers kp327
+elapsed_time:0.004
+sample ['a', 'a', 'c']
+Sending task 0 to worker 1
+elapsed_time:0.901
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=nan patience=0/30.0
+elapsed_time:0.901
+sample ['a', 'c', 'b']
+Sending task 1 to worker 1
+elapsed_time:1.574
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=1/30.0
+elapsed_time:1.574
+sample ['a', 'a', 'g']
+Sending task 2 to worker 1
+elapsed_time:2.174
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=2/30.0
+elapsed_time:2.174
+sample ['a', 'c', 'a']
+Sending task 3 to worker 1
+elapsed_time:2.775
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=3/30.0
+elapsed_time:2.775
+sample ['b', 'a', 'b']
+Sending task 4 to worker 1
+elapsed_time:3.393
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=4/30.0
+elapsed_time:3.393
+sample ['a', 'c', 'd']
+Sending task 5 to worker 1
+elapsed_time:4.071
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=5/30.0
+elapsed_time:4.071
+sample ['b', 'b', 'g']
+Sending task 6 to worker 1
+elapsed_time:4.766
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=6/30.0
+elapsed_time:4.766
+sample ['a', 'b', 'd']
+Sending task 7 to worker 1
+elapsed_time:5.449
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=7/30.0
+elapsed_time:5.449
+sample ['a', 'c', 'g']
+Sending task 8 to worker 1
+elapsed_time:6.101
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=8/30.0
+elapsed_time:6.102
+sample ['a', 'a', 'a']
+Sending task 9 to worker 1
+elapsed_time:6.933
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=9/30.0
+elapsed_time:7.192
+sample ['a', 'b', 'h']
+Sending task 10 to worker 1
+elapsed_time:8.448
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=10/30.0
+elapsed_time:8.710
+sample ['a', 'a', 'e']
+Sending task 11 to worker 1
+elapsed_time:9.764
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=11/30.0
+elapsed_time:10.026
+sample ['a', 'b', 'g']
+Sending task 12 to worker 1
+elapsed_time:11.175
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=12/30.0
+elapsed_time:11.437
+sample ['b', 'a', 'h']
+Sending task 13 to worker 1
+elapsed_time:12.675
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=13/30.0
+elapsed_time:12.937
+sample ['b', 'c', 'e']
+Sending task 14 to worker 1
+elapsed_time:14.134
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=14/30.0
+elapsed_time:14.396
+sample ['b', 'c', 'd']
+Sending task 15 to worker 1
+elapsed_time:15.492
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=15/30.0
+elapsed_time:15.755
+sample ['a', 'b', 'g']
+['a', 'b', 'g'] already evalauted
+Sending task 16 to worker 1
+elapsed_time:17.017
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=16/30.0
+elapsed_time:17.279
+sample ['b', 'a', 'c']
+Sending task 17 to worker 1
+elapsed_time:18.520
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=17/30.0
+elapsed_time:18.783
+sample ['a', 'a', 'g']
+['a', 'a', 'g'] already evalauted
+Sending task 18 to worker 1
+elapsed_time:19.970
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=18/30.0
+elapsed_time:20.232
+sample ['b', 'c', 'a']
+Sending task 19 to worker 1
+elapsed_time:21.354
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=19/30.0
+elapsed_time:21.665
+sample ['b', 'c', 'd']
+['b', 'c', 'd'] already evalauted
+Sending task 20 to worker 1
+elapsed_time:22.678
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=20/30.0
+elapsed_time:22.941
+sample ['b', 'c', 'f']
+Sending task 21 to worker 1
+elapsed_time:23.958
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=21/30.0
+elapsed_time:24.221
+sample ['b', 'b', 'f']
+Sending task 22 to worker 1
+elapsed_time:25.420
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=22/30.0
+elapsed_time:25.716
+sample ['a', 'a', 'a']
+['a', 'a', 'a'] already evalauted
+Sending task 23 to worker 1
+elapsed_time:26.894
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=23/30.0
+elapsed_time:27.156
+sample ['b', 'b', 'a']
+Sending task 24 to worker 1
+elapsed_time:28.292
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=24/30.0
+elapsed_time:28.555
+sample ['b', 'a', 'd']
+Sending task 25 to worker 1
+elapsed_time:29.700
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=25/30.0
+elapsed_time:29.963
+sample ['a', 'a', 'c']
+['a', 'a', 'c'] already evalauted
+Sending task 26 to worker 1
+elapsed_time:31.108
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=26/30.0
+elapsed_time:31.371
+sample ['b', 'a', 'd']
+['b', 'a', 'd'] already evalauted
+Sending task 27 to worker 1
+elapsed_time:32.474
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=27/30.0
+elapsed_time:32.737
+sample ['a', 'a', 'h']
+Sending task 28 to worker 1
+elapsed_time:33.771
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=28/30.0
+elapsed_time:34.034
+sample ['b', 'a', 'g']
+Sending task 29 to worker 1
+elapsed_time:35.232
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=29/30.0
+elapsed_time:35.496
+sample ['a', 'a', 'c']
+['a', 'a', 'c'] already evalauted
+Sending task 30 to worker 1
+elapsed_time:36.722
+Got data from worker 1
+curr_best=9.223372036854776e+18 percent_improv=-0.0 patience=30/30.0
+elapsed_time:36.986
+elapsed_time:36.986
+Worker 1 exited.
+Search finished..
+[{'evalnum': 0, 'startTime': 1563207825, 'endTime': 1563207825, 'cost': 9.223372036854776e+18, 'x': ['a', 'a', 'c'], 'key': '000_00000.dat', 'status': 0, 'elapsed_time': 0.9006872177124023}, {'evalnum': 1, 'startTime': 1563207826, 'endTime': 1563207826, 'cost': 9.223372036854776e+18, 'x': ['a', 'c', 'b'], 'key': '000_00001.dat', 'status': 0, 'elapsed_time': 1.5740437507629395}, {'evalnum': 2, 'startTime': 1563207826, 'endTime': 1563207827, 'cost': 9.223372036854776e+18, 'x': ['a', 'a', 'g'], 'key': '000_00002.dat', 'status': 0, 'elapsed_time': 2.1736364364624023}, {'evalnum': 3, 'startTime': 1563207827, 'endTime': 1563207827, 'cost': 9.223372036854776e+18, 'x': ['a', 'c', 'a'], 'key': '000_00003.dat', 'status': 0, 'elapsed_time': 2.7746710777282715}, {'evalnum': 4, 'startTime': 1563207827, 'endTime': 1563207828, 'cost': 9.223372036854776e+18, 'x': ['b', 'a', 'b'], 'key': '000_00004.dat', 'status': 0, 'elapsed_time': 3.392677068710327}, {'evalnum': 5, 'startTime': 1563207828, 'endTime': 1563207829, 'cost': 9.223372036854776e+18, 'x': ['a', 'c', 'd'], 'key': '000_00005.dat', 'status': 0, 'elapsed_time': 4.070855140686035}, {'evalnum': 6, 'startTime': 1563207829, 'endTime': 1563207829, 'cost': 9.223372036854776e+18, 'x': ['b', 'b', 'g'], 'key': '000_00006.dat', 'status': 0, 'elapsed_time': 4.765452146530151}, {'evalnum': 7, 'startTime': 1563207829, 'endTime': 1563207830, 'cost': 9.223372036854776e+18, 'x': ['a', 'b', 'd'], 'key': '000_00007.dat', 'status': 0, 'elapsed_time': 5.44919753074646}, {'evalnum': 8, 'startTime': 1563207830, 'endTime': 1563207831, 'cost': 9.223372036854776e+18, 'x': ['a', 'c', 'g'], 'key': '000_00008.dat', 'status': 0, 'elapsed_time': 6.101123332977295}, {'evalnum': 9, 'startTime': 1563207831, 'endTime': 1563207831, 'cost': 9.223372036854776e+18, 'x': ['a', 'a', 'a'], 'key': '000_00009.dat', 'status': 0, 'elapsed_time': 6.932811975479126}, {'evalnum': 10, 'startTime': 1563207832, 'endTime': 1563207833, 'cost': 9.223372036854776e+18, 'x': ['a', 'b', 'h'], 'key': '000_00010.dat', 'status': 0, 'elapsed_time': 8.447520732879639}, {'evalnum': 11, 'startTime': 1563207834, 'endTime': 1563207834, 'cost': 9.223372036854776e+18, 'x': ['a', 'a', 'e'], 'key': '000_00011.dat', 'status': 0, 'elapsed_time': 9.7635498046875}, {'evalnum': 12, 'startTime': 1563207835, 'endTime': 1563207836, 'cost': 9.223372036854776e+18, 'x': ['a', 'b', 'g'], 'key': '000_00012.dat', 'status': 0, 'elapsed_time': 11.174733877182007}, {'evalnum': 13, 'startTime': 1563207837, 'endTime': 1563207837, 'cost': 9.223372036854776e+18, 'x': ['b', 'a', 'h'], 'key': '000_00013.dat', 'status': 0, 'elapsed_time': 12.674689054489136}, {'evalnum': 14, 'startTime': 1563207838, 'endTime': 1563207839, 'cost': 9.223372036854776e+18, 'x': ['b', 'c', 'e'], 'key': '000_00014.dat', 'status': 0, 'elapsed_time': 14.133860349655151}, {'evalnum': 15, 'startTime': 1563207840, 'endTime': 1563207840, 'cost': 9.223372036854776e+18, 'x': ['b', 'c', 'd'], 'key': '000_00015.dat', 'status': 0, 'elapsed_time': 15.492035150527954}, {'evalnum': 16, 'startTime': 1563207841, 'endTime': 1563207842, 'cost': 9.223372036854776e+18, 'x': ['a', 'b', 'g'], 'key': '000_00016.dat', 'status': 0, 'elapsed_time': 17.016494035720825}, {'evalnum': 17, 'startTime': 1563207842, 'endTime': 1563207843, 'cost': 9.223372036854776e+18, 'x': ['b', 'a', 'c'], 'key': '000_00017.dat', 'status': 0, 'elapsed_time': 18.520002841949463}, {'evalnum': 18, 'startTime': 1563207844, 'endTime': 1563207845, 'cost': 9.223372036854776e+18, 'x': ['a', 'a', 'g'], 'key': '000_00018.dat', 'status': 0, 'elapsed_time': 19.969703912734985}, {'evalnum': 19, 'startTime': 1563207845, 'endTime': 1563207846, 'cost': 9.223372036854776e+18, 'x': ['b', 'c', 'a'], 'key': '000_00019.dat', 'status': 0, 'elapsed_time': 21.35371994972229}, {'evalnum': 20, 'startTime': 1563207847, 'endTime': 1563207847, 'cost': 9.223372036854776e+18, 'x': ['b', 'c', 'd'], 'key': '000_00020.dat', 'status': 0, 'elapsed_time': 22.677953481674194}, {'evalnum': 21, 'startTime': 1563207848, 'endTime': 1563207849, 'cost': 9.223372036854776e+18, 'x': ['b', 'c', 'f'], 'key': '000_00021.dat', 'status': 0, 'elapsed_time': 23.957884550094604}, {'evalnum': 22, 'startTime': 1563207849, 'endTime': 1563207850, 'cost': 9.223372036854776e+18, 'x': ['b', 'b', 'f'], 'key': '000_00022.dat', 'status': 0, 'elapsed_time': 25.42027711868286}, {'evalnum': 23, 'startTime': 1563207851, 'endTime': 1563207851, 'cost': 9.223372036854776e+18, 'x': ['a', 'a', 'a'], 'key': '000_00023.dat', 'status': 0, 'elapsed_time': 26.893806219100952}, {'evalnum': 24, 'startTime': 1563207852, 'endTime': 1563207853, 'cost': 9.223372036854776e+18, 'x': ['b', 'b', 'a'], 'key': '000_00024.dat', 'status': 0, 'elapsed_time': 28.291698217391968}, {'evalnum': 25, 'startTime': 1563207854, 'endTime': 1563207854, 'cost': 9.223372036854776e+18, 'x': ['b', 'a', 'd'], 'key': '000_00025.dat', 'status': 0, 'elapsed_time': 29.699806451797485}, {'evalnum': 26, 'startTime': 1563207855, 'endTime': 1563207856, 'cost': 9.223372036854776e+18, 'x': ['a', 'a', 'c'], 'key': '000_00026.dat', 'status': 0, 'elapsed_time': 31.10740065574646}, {'evalnum': 27, 'startTime': 1563207856, 'endTime': 1563207857, 'cost': 9.223372036854776e+18, 'x': ['b', 'a', 'd'], 'key': '000_00027.dat', 'status': 0, 'elapsed_time': 32.47429323196411}, {'evalnum': 28, 'startTime': 1563207858, 'endTime': 1563207858, 'cost': 9.223372036854776e+18, 'x': ['a', 'a', 'h'], 'key': '000_00028.dat', 'status': 0, 'elapsed_time': 33.770872354507446}, {'evalnum': 29, 'startTime': 1563207859, 'endTime': 1563207860, 'cost': 9.223372036854776e+18, 'x': ['b', 'a', 'g'], 'key': '000_00029.dat', 'status': 0, 'elapsed_time': 35.23133444786072}, {'evalnum': 30, 'startTime': 1563207861, 'endTime': 1563207861, 'cost': 9.223372036854776e+18, 'x': ['a', 'a', 'c'], 'key': '000_00030.dat', 'status': 0, 'elapsed_time': 36.72225618362427}]/uufs/chpc.utah.edu/common/home/u1136450/.conda/envs/ytopt/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: DeprecationWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=DeprecationWarning)
+Using TensorFlow backend.
+worker with rank 1 on kp333.
+{'evalnum': 0, 'startTime': 1563207825, 'endTime': 1563207825, 'cost': 9.223372036854776e+18, 'x': ['a', 'a', 'c'], 'key': '000_00000.dat', 'status': 0, 'elapsed_time': 0.9006872177124023}
+{'evalnum': 1, 'startTime': 1563207826, 'endTime': 1563207826, 'cost': 9.223372036854776e+18, 'x': ['a', 'c', 'b'], 'key': '000_00001.dat', 'status': 0, 'elapsed_time': 1.5740437507629395}
+{'evalnum': 2, 'startTime': 1563207826, 'endTime': 1563207827, 'cost': 9.223372036854776e+18, 'x': ['a', 'a', 'g'], 'key': '000_00002.dat', 'status': 0, 'elapsed_time': 2.1736364364624023}
+{'evalnum': 3, 'startTime': 1563207827, 'endTime': 1563207827, 'cost': 9.223372036854776e+18, 'x': ['a', 'c', 'a'], 'key': '000_00003.dat', 'status': 0, 'elapsed_time': 2.7746710777282715}
+{'evalnum': 4, 'startTime': 1563207827, 'endTime': 1563207828, 'cost': 9.223372036854776e+18, 'x': ['b', 'a', 'b'], 'key': '000_00004.dat', 'status': 0, 'elapsed_time': 3.392677068710327}
+{'evalnum': 5, 'startTime': 1563207828, 'endTime': 1563207829, 'cost': 9.223372036854776e+18, 'x': ['a', 'c', 'd'], 'key': '000_00005.dat', 'status': 0, 'elapsed_time': 4.070855140686035}
+{'evalnum': 6, 'startTime': 1563207829, 'endTime': 1563207829, 'cost': 9.223372036854776e+18, 'x': ['b', 'b', 'g'], 'key': '000_00006.dat', 'status': 0, 'elapsed_time': 4.765452146530151}
+{'evalnum': 7, 'startTime': 1563207829, 'endTime': 1563207830, 'cost': 9.223372036854776e+18, 'x': ['a', 'b', 'd'], 'key': '000_00007.dat', 'status': 0, 'elapsed_time': 5.44919753074646}
+{'evalnum': 8, 'startTime': 1563207830, 'endTime': 1563207831, 'cost': 9.223372036854776e+18, 'x': ['a', 'c', 'g'], 'key': '000_00008.dat', 'status': 0, 'elapsed_time': 6.101123332977295}
+{'evalnum': 9, 'startTime': 1563207831, 'endTime': 1563207831, 'cost': 9.223372036854776e+18, 'x': ['a', 'a', 'a'], 'key': '000_00009.dat', 'status': 0, 'elapsed_time': 6.932811975479126}
+{'evalnum': 10, 'startTime': 1563207832, 'endTime': 1563207833, 'cost': 9.223372036854776e+18, 'x': ['a', 'b', 'h'], 'key': '000_00010.dat', 'status': 0, 'elapsed_time': 8.447520732879639}
+{'evalnum': 11, 'startTime': 1563207834, 'endTime': 1563207834, 'cost': 9.223372036854776e+18, 'x': ['a', 'a', 'e'], 'key': '000_00011.dat', 'status': 0, 'elapsed_time': 9.7635498046875}
+{'evalnum': 12, 'startTime': 1563207835, 'endTime': 1563207836, 'cost': 9.223372036854776e+18, 'x': ['a', 'b', 'g'], 'key': '000_00012.dat', 'status': 0, 'elapsed_time': 11.174733877182007}
+{'evalnum': 13, 'startTime': 1563207837, 'endTime': 1563207837, 'cost': 9.223372036854776e+18, 'x': ['b', 'a', 'h'], 'key': '000_00013.dat', 'status': 0, 'elapsed_time': 12.674689054489136}
+{'evalnum': 14, 'startTime': 1563207838, 'endTime': 1563207839, 'cost': 9.223372036854776e+18, 'x': ['b', 'c', 'e'], 'key': '000_00014.dat', 'status': 0, 'elapsed_time': 14.133860349655151}
+{'evalnum': 15, 'startTime': 1563207840, 'endTime': 1563207840, 'cost': 9.223372036854776e+18, 'x': ['b', 'c', 'd'], 'key': '000_00015.dat', 'status': 0, 'elapsed_time': 15.492035150527954}
+{'evalnum': 16, 'startTime': 1563207841, 'endTime': 1563207842, 'cost': 9.223372036854776e+18, 'x': ['a', 'b', 'g'], 'key': '000_00016.dat', 'status': 0, 'elapsed_time': 17.016494035720825}
+{'evalnum': 17, 'startTime': 1563207842, 'endTime': 1563207843, 'cost': 9.223372036854776e+18, 'x': ['b', 'a', 'c'], 'key': '000_00017.dat', 'status': 0, 'elapsed_time': 18.520002841949463}
+{'evalnum': 18, 'startTime': 1563207844, 'endTime': 1563207845, 'cost': 9.223372036854776e+18, 'x': ['a', 'a', 'g'], 'key': '000_00018.dat', 'status': 0, 'elapsed_time': 19.969703912734985}
+{'evalnum': 19, 'startTime': 1563207845, 'endTime': 1563207846, 'cost': 9.223372036854776e+18, 'x': ['b', 'c', 'a'], 'key': '000_00019.dat', 'status': 0, 'elapsed_time': 21.35371994972229}
+{'evalnum': 20, 'startTime': 1563207847, 'endTime': 1563207847, 'cost': 9.223372036854776e+18, 'x': ['b', 'c', 'd'], 'key': '000_00020.dat', 'status': 0, 'elapsed_time': 22.677953481674194}
+{'evalnum': 21, 'startTime': 1563207848, 'endTime': 1563207849, 'cost': 9.223372036854776e+18, 'x': ['b', 'c', 'f'], 'key': '000_00021.dat', 'status': 0, 'elapsed_time': 23.957884550094604}
+{'evalnum': 22, 'startTime': 1563207849, 'endTime': 1563207850, 'cost': 9.223372036854776e+18, 'x': ['b', 'b', 'f'], 'key': '000_00022.dat', 'status': 0, 'elapsed_time': 25.42027711868286}
+{'evalnum': 23, 'startTime': 1563207851, 'endTime': 1563207851, 'cost': 9.223372036854776e+18, 'x': ['a', 'a', 'a'], 'key': '000_00023.dat', 'status': 0, 'elapsed_time': 26.893806219100952}
+{'evalnum': 24, 'startTime': 1563207852, 'endTime': 1563207853, 'cost': 9.223372036854776e+18, 'x': ['b', 'b', 'a'], 'key': '000_00024.dat', 'status': 0, 'elapsed_time': 28.291698217391968}
+{'evalnum': 25, 'startTime': 1563207854, 'endTime': 1563207854, 'cost': 9.223372036854776e+18, 'x': ['b', 'a', 'd'], 'key': '000_00025.dat', 'status': 0, 'elapsed_time': 29.699806451797485}
+{'evalnum': 26, 'startTime': 1563207855, 'endTime': 1563207856, 'cost': 9.223372036854776e+18, 'x': ['a', 'a', 'c'], 'key': '000_00026.dat', 'status': 0, 'elapsed_time': 31.10740065574646}
+{'evalnum': 27, 'startTime': 1563207856, 'endTime': 1563207857, 'cost': 9.223372036854776e+18, 'x': ['b', 'a', 'd'], 'key': '000_00027.dat', 'status': 0, 'elapsed_time': 32.47429323196411}
+{'evalnum': 28, 'startTime': 1563207858, 'endTime': 1563207858, 'cost': 9.223372036854776e+18, 'x': ['a', 'a', 'h'], 'key': '000_00028.dat', 'status': 0, 'elapsed_time': 33.770872354507446}
+{'evalnum': 29, 'startTime': 1563207859, 'endTime': 1563207860, 'cost': 9.223372036854776e+18, 'x': ['b', 'a', 'g'], 'key': '000_00029.dat', 'status': 0, 'elapsed_time': 35.23133444786072}
+{'evalnum': 30, 'startTime': 1563207861, 'endTime': 1563207861, 'cost': 9.223372036854776e+18, 'x': ['a', 'a', 'c'], 'key': '000_00030.dat', 'status': 0, 'elapsed_time': 36.72225618362427}
+Exit rank=1
+
+[
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 0.9006872177124023,
+        "endTime": 1563207825,
+        "evalnum": 0,
+        "key": "000_00000.dat",
+        "startTime": 1563207825,
+        "status": 0,
+        "x": [
+            "a",
+            "a",
+            "c"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 1.5740437507629395,
+        "endTime": 1563207826,
+        "evalnum": 1,
+        "key": "000_00001.dat",
+        "startTime": 1563207826,
+        "status": 0,
+        "x": [
+            "a",
+            "c",
+            "b"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 2.1736364364624023,
+        "endTime": 1563207827,
+        "evalnum": 2,
+        "key": "000_00002.dat",
+        "startTime": 1563207826,
+        "status": 0,
+        "x": [
+            "a",
+            "a",
+            "g"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 2.7746710777282715,
+        "endTime": 1563207827,
+        "evalnum": 3,
+        "key": "000_00003.dat",
+        "startTime": 1563207827,
+        "status": 0,
+        "x": [
+            "a",
+            "c",
+            "a"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 3.392677068710327,
+        "endTime": 1563207828,
+        "evalnum": 4,
+        "key": "000_00004.dat",
+        "startTime": 1563207827,
+        "status": 0,
+        "x": [
+            "b",
+            "a",
+            "b"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 4.070855140686035,
+        "endTime": 1563207829,
+        "evalnum": 5,
+        "key": "000_00005.dat",
+        "startTime": 1563207828,
+        "status": 0,
+        "x": [
+            "a",
+            "c",
+            "d"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 4.765452146530151,
+        "endTime": 1563207829,
+        "evalnum": 6,
+        "key": "000_00006.dat",
+        "startTime": 1563207829,
+        "status": 0,
+        "x": [
+            "b",
+            "b",
+            "g"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 5.44919753074646,
+        "endTime": 1563207830,
+        "evalnum": 7,
+        "key": "000_00007.dat",
+        "startTime": 1563207829,
+        "status": 0,
+        "x": [
+            "a",
+            "b",
+            "d"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 6.101123332977295,
+        "endTime": 1563207831,
+        "evalnum": 8,
+        "key": "000_00008.dat",
+        "startTime": 1563207830,
+        "status": 0,
+        "x": [
+            "a",
+            "c",
+            "g"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 6.932811975479126,
+        "endTime": 1563207831,
+        "evalnum": 9,
+        "key": "000_00009.dat",
+        "startTime": 1563207831,
+        "status": 0,
+        "x": [
+            "a",
+            "a",
+            "a"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 8.447520732879639,
+        "endTime": 1563207833,
+        "evalnum": 10,
+        "key": "000_00010.dat",
+        "startTime": 1563207832,
+        "status": 0,
+        "x": [
+            "a",
+            "b",
+            "h"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 9.7635498046875,
+        "endTime": 1563207834,
+        "evalnum": 11,
+        "key": "000_00011.dat",
+        "startTime": 1563207834,
+        "status": 0,
+        "x": [
+            "a",
+            "a",
+            "e"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 11.174733877182007,
+        "endTime": 1563207836,
+        "evalnum": 12,
+        "key": "000_00012.dat",
+        "startTime": 1563207835,
+        "status": 0,
+        "x": [
+            "a",
+            "b",
+            "g"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 12.674689054489136,
+        "endTime": 1563207837,
+        "evalnum": 13,
+        "key": "000_00013.dat",
+        "startTime": 1563207837,
+        "status": 0,
+        "x": [
+            "b",
+            "a",
+            "h"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 14.133860349655151,
+        "endTime": 1563207839,
+        "evalnum": 14,
+        "key": "000_00014.dat",
+        "startTime": 1563207838,
+        "status": 0,
+        "x": [
+            "b",
+            "c",
+            "e"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 15.492035150527954,
+        "endTime": 1563207840,
+        "evalnum": 15,
+        "key": "000_00015.dat",
+        "startTime": 1563207840,
+        "status": 0,
+        "x": [
+            "b",
+            "c",
+            "d"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 17.016494035720825,
+        "endTime": 1563207842,
+        "evalnum": 16,
+        "key": "000_00016.dat",
+        "startTime": 1563207841,
+        "status": 0,
+        "x": [
+            "a",
+            "b",
+            "g"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 18.520002841949463,
+        "endTime": 1563207843,
+        "evalnum": 17,
+        "key": "000_00017.dat",
+        "startTime": 1563207842,
+        "status": 0,
+        "x": [
+            "b",
+            "a",
+            "c"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 19.969703912734985,
+        "endTime": 1563207845,
+        "evalnum": 18,
+        "key": "000_00018.dat",
+        "startTime": 1563207844,
+        "status": 0,
+        "x": [
+            "a",
+            "a",
+            "g"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 21.35371994972229,
+        "endTime": 1563207846,
+        "evalnum": 19,
+        "key": "000_00019.dat",
+        "startTime": 1563207845,
+        "status": 0,
+        "x": [
+            "b",
+            "c",
+            "a"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 22.677953481674194,
+        "endTime": 1563207847,
+        "evalnum": 20,
+        "key": "000_00020.dat",
+        "startTime": 1563207847,
+        "status": 0,
+        "x": [
+            "b",
+            "c",
+            "d"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 23.957884550094604,
+        "endTime": 1563207849,
+        "evalnum": 21,
+        "key": "000_00021.dat",
+        "startTime": 1563207848,
+        "status": 0,
+        "x": [
+            "b",
+            "c",
+            "f"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 25.42027711868286,
+        "endTime": 1563207850,
+        "evalnum": 22,
+        "key": "000_00022.dat",
+        "startTime": 1563207849,
+        "status": 0,
+        "x": [
+            "b",
+            "b",
+            "f"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 26.893806219100952,
+        "endTime": 1563207851,
+        "evalnum": 23,
+        "key": "000_00023.dat",
+        "startTime": 1563207851,
+        "status": 0,
+        "x": [
+            "a",
+            "a",
+            "a"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 28.291698217391968,
+        "endTime": 1563207853,
+        "evalnum": 24,
+        "key": "000_00024.dat",
+        "startTime": 1563207852,
+        "status": 0,
+        "x": [
+            "b",
+            "b",
+            "a"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 29.699806451797485,
+        "endTime": 1563207854,
+        "evalnum": 25,
+        "key": "000_00025.dat",
+        "startTime": 1563207854,
+        "status": 0,
+        "x": [
+            "b",
+            "a",
+            "d"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 31.10740065574646,
+        "endTime": 1563207856,
+        "evalnum": 26,
+        "key": "000_00026.dat",
+        "startTime": 1563207855,
+        "status": 0,
+        "x": [
+            "a",
+            "a",
+            "c"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 32.47429323196411,
+        "endTime": 1563207857,
+        "evalnum": 27,
+        "key": "000_00027.dat",
+        "startTime": 1563207856,
+        "status": 0,
+        "x": [
+            "b",
+            "a",
+            "d"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 33.770872354507446,
+        "endTime": 1563207858,
+        "evalnum": 28,
+        "key": "000_00028.dat",
+        "startTime": 1563207858,
+        "status": 0,
+        "x": [
+            "a",
+            "a",
+            "h"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 35.23133444786072,
+        "endTime": 1563207860,
+        "evalnum": 29,
+        "key": "000_00029.dat",
+        "startTime": 1563207859,
+        "status": 0,
+        "x": [
+            "b",
+            "a",
+            "g"
+        ]
+    },
+    {
+        "cost": 9.223372036854776e+18,
+        "elapsed_time": 36.72225618362427,
+        "endTime": 1563207861,
+        "evalnum": 30,
+        "key": "000_00030.dat",
+        "startTime": 1563207861,
+        "status": 0,
+        "x": [
+            "a",
+            "a",
+            "c"
+        ]
+    }
+]/uufs/chpc.utah.edu/common/home/u1136450/.conda/envs/ytopt/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: DeprecationWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=DeprecationWarning)
+Using TensorFlow backend.
+/uufs/chpc.utah.edu/common/home/u1136450/.conda/envs/ytopt/lib/python3.6/site-packages/skopt/optimizer/optimizer.py:399: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
+/uufs/chpc.utah.edu/common/home/u1136450/.conda/envs/ytopt/lib/python3.6/site-packages/skopt/optimizer/optimizer.py:399: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
+/uufs/chpc.utah.edu/common/home/u1136450/.conda/envs/ytopt/lib/python3.6/site-packages/skopt/optimizer/optimizer.py:399: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
+/uufs/chpc.utah.edu/common/home/u1136450/.conda/envs/ytopt/lib/python3.6/site-packages/skopt/optimizer/optimizer.py:399: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
+/uufs/chpc.utah.edu/common/home/u1136450/.conda/envs/ytopt/lib/python3.6/site-packages/skopt/optimizer/optimizer.py:399: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
+/uufs/chpc.utah.edu/common/home/u1136450/.conda/envs/ytopt/lib/python3.6/site-packages/skopt/optimizer/optimizer.py:399: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
+/uufs/chpc.utah.edu/common/home/u1136450/.conda/envs/ytopt/lib/python3.6/site-packages/skopt/optimizer/optimizer.py:399: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
+
+Best: x = 9.223372036854776e+18; y=['a', 'a', 'c']
